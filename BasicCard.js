@@ -4,8 +4,8 @@ function BasicCard(front, back) {
 }
 module.exports = BasicCard;
 
-var CC = require('./ClozeCard.js');
-
-var a = new CC("George Washington was the first president of the United States.", "George Washington");
-
-console.log(a.partial +"\n"+ a.fullText);
+// var CC = require('./ClozeCard.js');
+//
+// var a = new CC("George Washington was the first president of the United States.", "George Washington");
+//
+// console.log(a.partial +"\n"+ a.fullText);
